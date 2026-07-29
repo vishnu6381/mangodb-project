@@ -3,6 +3,7 @@ kind: Deployment
 
 metadata:
   name: mongodb
+  namespace: default
 
 spec:
   replicas: 1
